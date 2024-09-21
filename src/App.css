@@ -1,0 +1,102 @@
+.trafficLights {
+  width: 200px;
+  height: 600px;
+  background-color: gray;
+  border-radius: 30px 30px 30px 30px;
+  margin: 20px 0;
+  padding-top: 40px;
+}
+.light {
+  background-color: #000;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+.trafficLights .light.active:nth-child(1) {
+  background-color: red;
+}
+.trafficLights .light.active:nth-child(2) {
+  background-color: yellow;
+}
+.trafficLights .light.active:nth-child(3) {
+  background-color: green;
+}
+
+.remote-control {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  color: white;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.display {
+  background-color: #222;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.input-time {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.red-btn {
+  background-color: #ff4d4d;
+}
+
+.yellow-btn {
+  background-color: #f7e62a;
+  color: #333;
+}
+
+.green-btn {
+  background-color: #4caf50;
+}
+
+.active {
+  transform: scale(1.1);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 0;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  margin:0 auto
+}
