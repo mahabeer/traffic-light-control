@@ -38,16 +38,18 @@ Clone the repository:
 ```bash
 git clone https://github.com/mahabeer/traffic-light-control
 cd traffic-light-control
+```
+
 Install the dependencies:
 
 ```bash
 npm install
+```
 Run the app:
-
 ```bash
 npm start
+```
 Open in browser:
-
 After the app starts, you can access it by navigating to http://localhost:3000 in your browser.
 
 Usage
@@ -77,5 +79,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Screenshots
+![traffic-light](https://github.com/user-attachments/assets/a76cd9bf-17ab-4b1e-9c69-a3b601cb57e2)
 
 Let me know if you'd like to add anything else to this README or further clarify any parts of the project!
+
