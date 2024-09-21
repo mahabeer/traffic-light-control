@@ -35,16 +35,16 @@ Download Node.js
 Steps
 Clone the repository:
 
-bash
-git clone https://github.com/your-username/traffic-light-control.git
+```bash
+git clone https://github.com/mahabeer/traffic-light-control
 cd traffic-light-control
 Install the dependencies:
 
-bash
+```bash
 npm install
 Run the app:
 
-bash
+```bash
 npm start
 Open in browser:
 
