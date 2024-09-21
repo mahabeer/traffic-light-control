@@ -65,7 +65,7 @@ To switch between lights manually:
 
 Click on any of the Red, Yellow, or Green buttons.
 Project Structure
-graphql
+```graphql
 ├── public
 │ └── index.html # The main HTML file
 ├── src
@@ -75,6 +75,7 @@ graphql
 ├── package.json # Project metadata and dependencies
 ├── README.md # Project documentation
 └── .gitignore # Files to ignore in version control
+```
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
